@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="./img/car.ico" />
+    <title>custo da viagem</title>
+</head>
+<body>
+   
+    <main>
+        <h1>Calculadora de custo de viagem</h1>
+        <input type="number" name="distancia" id="distancia" placeholder="Distância  Km" > <br>
+        <input type="number" name="consumoMedio" id="consumoMedio" placeholder="Consumo médio Km/L"> <br>
+        <input type="number" name="precoCombustivel" id="precoCombustivel" placeholder="Preço do Combustível"> <br>
+        <button onclick="calcular()">Calcular</button>
+        <div id="total"></div><!--Total a pagar-->
+    </main>
+    
+</body>
+</html>

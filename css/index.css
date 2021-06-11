@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url('/img/estrada720borrada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    
+    max-width: 500px;
+    background-color: #455565;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 3px 4px  1px rgba(0, 0, 0, 0.596);
+}
+main >h1{
+    color: #353440;
+    background-color:#708ba5 ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px  1px rgba(0, 0, 0, 0.596);
+}
+input{
+    width: 45%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: #9FB0BF;
+    box-shadow: 3px 4px  1px rgba(0, 0, 0, 0.596);
+    border: hidden;
+    
+    
+}
+input::placeholder{
+    color: #000000;
+    font-size: large;
+}
+input:hover{
+    background-color: #c5dbee;
+}
+
+button{
+    width: 40%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: #cc942b;
+    box-shadow: 3px 4px  1px rgba(0, 0, 0, 0.596);
+    border: hidden;
+}
+button::placeholder{
+    color: #000000;
+    font-size: large;
+    background-color: #ffc862;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #f0ae33;
+}
+#total{
+    font-size: 1.5em;
+}
+#totalVerde{
+    color: #6c9256;
+    font-size: 1.6;
+}
