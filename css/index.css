@@ -72,3 +72,11 @@ button:hover{
     color: #6c9256;
     font-size: 1.6;
 }
+
+ a{
+    text-decoration: none;
+    margin-bottom: 0;
+    color: #000000;
+    width: 50%;
+    margin: auto;
+ }
